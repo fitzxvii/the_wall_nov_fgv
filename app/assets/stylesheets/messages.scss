@@ -1,3 +1,88 @@
 /*
 *= require global.scss
 */
+
+#header{
+    padding: 10px;
+    border: solid black 3px;
+    text-align: center;
+
+    h2{
+        display: inline;
+    }
+
+    div{
+        display: block;
+        text-align: center;
+        margin: 5px;
+    }
+
+    h3{
+        display: inline;
+    }
+
+    h6{
+        display: inline;
+        text-align: right;
+        font-size: 16px;
+    }
+}
+
+#content{
+    text-align: justify;
+
+    h5{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #messages_list{
+        width: 725px;
+        margin: 20px auto;
+        text-align: left;
+    }
+
+    button{
+        margin: 0 auto;
+        width: 125px;
+        height: 30px;
+        display: block;
+    }
+
+    textarea{
+        width: 725px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
+#create_message_form{
+    text-align: center;
+
+    textarea{
+        width: 750px;
+        height: 120px;
+        vertical-align: top;
+        display: inline-block;
+        font-size: 14px;
+        border: solid black 2px;
+    }
+
+    label{
+        display: inline-block;
+        text-align: right;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    button{
+        margin: 0 auto;
+        width: 125px;
+        height: 30px;
+        display: block;
+    }
+}
+
+ul{
+    list-style-type: none;
+}

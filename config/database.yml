@@ -16,7 +16,7 @@ default: &default
   username: root
   password: root
   host: localhost
-  database: wall_oct
+  database: wall_nov
 
 development:
   <<: *default
